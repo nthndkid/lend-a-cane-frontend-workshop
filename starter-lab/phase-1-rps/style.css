@@ -1,9 +1,12 @@
 /* CSS Variables Area */
 :root {
-    --bg: #f8fafc;
+    --bg: #eef0f1;
     --card: #ffffff;
     --primary: #3b82f6;
     --text: #1e293b;
+    --label: #930d0d;
+    --border: #14be42;
+    --button: #249cb6;
 }
 
 * {
@@ -33,3 +36,59 @@ body {
 }
 
 /* TASK: Add styles for .score-board, .choices, .choice-btn, #message, and .reset-btn below! */
+.score-board{
+    display: flex;
+    justify-content: space-around;
+    background: var(--bg);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.score-item{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.label{
+    font-size: large;
+    color: var(--label);
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.choice-btn{
+    font-size: 2rem;
+    width: 70px;
+    height: 70px;
+    border: 2px solid var(--border);
+}
+
+.choice-btn:hover{
+    border-color: var(--label);
+    transform: scale(1.1);
+}
+
+#message{
+    font-weight: bold;
+    margin-bottom: 1rem;
+    min-height: 1.5rem;
+}
+
+.reset-btn{
+    background: none;
+    border: none;
+    color: var(--button);
+    cursor: pointer;
+}
+
+.reset-btn:hover{
+    color: var(--border);
+}
