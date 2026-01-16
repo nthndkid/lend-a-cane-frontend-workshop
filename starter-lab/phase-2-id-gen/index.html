@@ -9,18 +9,62 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+<body class="bg-blue-900 flex items-center justify-center min-h-screen">
 
-    <div class="max-w-md w-full p-6">
+    <div class="max-w-sm w-full p-6">
         <h1 class="text-3xl font-bold text-center mb-8">ID CARD GENERATOR</h1>
 
         <!-- THE CARD -->
-        <div id="id-card" class="bg-white rounded-xl shadow-2xl p-8 text-center border-t-8 border-blue-500">
+        <div id="id-card" class="bg-white rounded-xl shadow-2xl p-8 text-center border-4 border-blue-500">
             <!-- TASK 1: Add the Profile Image, Name, and Role here -->
+             <div class="relative z-10">
+                <!-- Image Div -->
+                <div class="mb-6 flex justify-center">
+                    <div id="avatar-container" class="w-32 h-32 rounded-2xl border-4 border-blue-500/40 shadow-2xl">
+                        <img id="user-image" src="https://placehold.co/200" alt="Avatar"
+                            class="w-full h-full rounded-xl object-cover grayscale hover:grayscale-0 transition-all duration-500">
+                    </div>
+                </div>
+                
+                <!-- Information Details -->
+                <div class="space-y-4">
+                    <!-- Name and Role -->
+                    <div>
+                        <h2 id="user-name" class="text-2xl font-bold mt-4 uppercase">User Name</h2>
+                        <p id="user-role" class="text-blue-500 font-medium uppercase tracking-tight text-sm">Software Engineer</p>
+                    </div>
+
+                    <hr>
+
+                    <!-- other details -->
+                    <div class="grid grid-cols-2 gap-4 text-left text-sm">
+                        <!-- ID Number-->
+                        <div>
+                            <p class="text-gray-500 uppercase text-[10px]">ID Number</p>
+                            <p id="user-id" class="text-black-300 font-mono">0000000</p>
+                        </div>
+
+                        <!-- Location -->
+                        <div>
+                            <p class="text-gray-500 uppercase text-[10px]">Location</p>
+                            <p id="user-location" class="text-black-300 font-mono">Taguig City</p>
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <p class="text-gray-500 uppercase text-[10px]">Email Address</p>
+                            <p id="user-email" class="text-black-300 font-mono text-sm">whitecanes@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
         </div>
 
         <div class="mt-8 flex justify-center">
             <!-- TASK 2: Add the "Generate New ID" button here -->
+             <button id="generate-btn" class="bg-blue-600 hover:bg-yellow-400 text-white hover:text-black font-bold py-3 px-8 rounded-full shadow-lg transition-all active:scale-95">
+                Generate New ID
+            </button>
         </div>
     </div>
 
