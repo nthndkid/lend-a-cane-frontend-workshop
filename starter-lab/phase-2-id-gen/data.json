@@ -1,0 +1,152 @@
+[
+    {
+        "name": {
+            "first": "Alex",
+            "last": "Rivera"
+        },
+        "email": "alex.rivera@whitecanes.dev",
+        "location": {
+            "city": "San Francisco",
+            "country": "USA"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex"
+        },
+        "role": "Lead Architect"
+    },
+    {
+        "name": {
+            "first": "Sam",
+            "last": "Chen"
+        },
+        "email": "sam.chen@whitecanes.dev",
+        "location": {
+            "city": "London",
+            "country": "UK"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sam"
+        },
+        "role": "Frontend Specialist"
+    },
+    {
+        "name": {
+            "first": "Jordan",
+            "last": "Smith"
+        },
+        "email": "jordan.s@whitecanes.dev",
+        "location": {
+            "city": "Berlin",
+            "country": "Germany"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jordan"
+        },
+        "role": "Security Researcher"
+    },
+    {
+        "name": {
+            "first": "Casey",
+            "last": "Morgan"
+        },
+        "email": "casey.m@whitecanes.dev",
+        "location": {
+            "city": "Tokyo",
+            "country": "Japan"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Casey"
+        },
+        "role": "UX Engineer"
+    },
+    {
+        "name": {
+            "first": "Morgan",
+            "last": "Taylor"
+        },
+        "email": "m.taylor@whitecanes.dev",
+        "location": {
+            "city": "Nairobi",
+            "country": "Kenya"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Morgan"
+        },
+        "role": "Data Analyst"
+    },
+    {
+        "name": {
+            "first": "Riley",
+            "last": "Parker"
+        },
+        "email": "r.parker@whitecanes.dev",
+        "location": {
+            "city": "Sydney",
+            "country": "Australia"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Riley"
+        },
+        "role": "DevOps Engineer"
+    },
+    {
+        "name": {
+            "first": "Jamie",
+            "last": "Lee"
+        },
+        "email": "j.lee@whitecanes.dev",
+        "location": {
+            "city": "Seoul",
+            "country": "South Korea"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Jamie"
+        },
+        "role": "Mobile Developer"
+    },
+    {
+        "name": {
+            "first": "Avery",
+            "last": "Garcia"
+        },
+        "email": "a.garcia@whitecanes.dev",
+        "location": {
+            "city": "Mexico City",
+            "country": "Mexico"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Avery"
+        },
+        "role": "Cloud Architect"
+    },
+    {
+        "name": {
+            "first": "Skyler",
+            "last": "Blair"
+        },
+        "email": "s.blair@whitecanes.dev",
+        "location": {
+            "city": "Toronto",
+            "country": "Canada"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Skyler"
+        },
+        "role": "AI Specialist"
+    },
+    {
+        "name": {
+            "first": "Quinn",
+            "last": "Hale"
+        },
+        "email": "q.hale@whitecanes.dev",
+        "location": {
+            "city": "Paris",
+            "country": "France"
+        },
+        "picture": {
+            "large": "https://api.dicebear.com/7.x/avataaars/svg?seed=Quinn"
+        },
+        "role": "Product Designer"
+    }
+]

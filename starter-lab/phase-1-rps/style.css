@@ -1,0 +1,35 @@
+/* CSS Variables Area */
+:root {
+    --bg: #f8fafc;
+    --card: #ffffff;
+    --primary: #3b82f6;
+    --text: #1e293b;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 320px;
+}
+
+/* TASK: Add styles for .score-board, .choices, .choice-btn, #message, and .reset-btn below! */
